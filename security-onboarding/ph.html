@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title>Comet</title>
+    <style type='text/css'>
+        .google-popup
+        {
+            display: none;
+
+            position: absolute;
+            left: 585px;
+            top: 127px;
+
+            width: 602px;
+            height: 767px;
+
+            background: url("popup.png") no-repeat;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .google-popup .topbar
+        {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 40px;
+        }
+
+        .google-popup .close
+        {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+            width: 20px;
+            height: 20px;
+            z-index: 200;
+        }
+
+        .google-popup .close:hover
+        {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+    <script type="text/javascript">
+        function openp(e)
+        {
+            document.querySelector(".google-popup").style.display = "block";
+            return false;
+        }
+
+        function closep()
+        {
+            document.querySelector(".google-popup").style.display = "none";
+        }
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+   elmnt.onmousedown = dragMouseDown;
+  }
+  function dragMouseDown(e) {
+   e = e || window.event;
+   e.preventDefault();
+    // get the mouse cursor position at startup:
+   pos3 = e.clientX;
+   pos4 = e.clientY;
+   document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+ }
+  function elementDrag(e) {
+   e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+   pos1 = pos3 - e.clientX;
+   pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+   pos4 = e.clientY;
+    // set the element’s new position:
+   elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+   elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+ }
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+   document.onmousemove = null;
+  }
+}
+    </script>
+</head>
+<body>
+    <h1>Bienvenue sur Comet !</h1>
+    <a href='http://accounts.google.com/' onclick="return openp()"><img src='google.png' /></a>
+    <div class="google-popup" id="popup">
+        <a class="close" onclick="closep()">
+        </a>
+        <div class="topbar" id="popupheader">
+        </div>
+    </div>
+    <script>
+    dragElement(document.querySelector(".google-popup"));
+    </script>
+</body>
+</html>
