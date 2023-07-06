@@ -130,3 +130,141 @@ Note: be careful about what you said, where you say it, and to whom
 
 # Use <em>1password</em>!
 ## <a href='/1p-demo.html'>Demo</a>
+
+--
+
+# Password are <em>personnal</em>
+
+--
+
+# Do not give them to <em>anyone, ever</em>
+
+--
+
+## If someone <em>gives you</em> a password to a personnal account, please <em>report it</em> to the security team
+
+--
+
+### Some accounts are currently <em>shared</em>, we're working on that 😅
+
+--
+
+## Do <em>not</em> create new <em>shared</em> accounts
+
+--
+
+# The <em>most important</em> information in this presentation
+
+--
+
+# Use a <em>different password</em> on each website
+
+--
+
+# This is how <em>account stealing</em> work!
+
+--
+
+<img src='https://i.imgur.com/DNhP5u7.png'>
+
+#### This is one of many databases. It's 127GB.
+#### There's <em>4 666 029 807</em> passwords in this one.
+
+--
+
+### If you want to know if your <em>personal email</em> is in this database...
+
+--
+
+## https://haveibeenpwned.com/
+
+--
+
+# Let me say it again
+
+--
+
+# <em>NO REUSING PASSWORDS</em>
+
+--
+
+# And use <em>MFA</em>
+<img src='https://images.squarespace-cdn.com/content/v1/54f3390ee4b095d9141b86a5/1565989544107-N50CUROLY505L90X2N20/mfa_workflow.png'>
+Note: multi-factor authentication
+
+--
+
+# Iso 27001
+
+--
+
+### https://www.notion.so/spendesk/ISO-27001-00cac6ed282a4b7ba385caa663f25184
+
+--
+
+### Cybersecurity -> <em>Certifications</em> -> ISO 27001
+
+--
+
+## You need to <em>read</em> them.
+### <em style='color: gray'>Je suis pas sûr que ce soit un bon message.<br />C'est quoi le message ici ?</em>
+
+--
+
+# <em>Legal</em> bounds
+
+--
+
+## We are manipulating <em>people's money</em>
+
+--
+
+## We need to respect <em>regulations</em>
+
+--
+
+# DORA
+<img src='https://www.causette.fr/wp-content/uploads/2020/02/Dora-729x1024.png'>
+
+--
+
+### No wait, not this one
+
+--
+
+# DORA
+<img src='https://www.i-scoop.eu/wp-content/uploads/2022/07/EU-DORA-Digital-Operational-Resilience-Act-regulation.jpg'>
+
+--
+
+# DSP
+<img src='https://www.beausoleilmaroquinerie.fr/le-blog/wp-content/uploads/2021/04/secteur-bancaire-et-dsp2-un-mariage-de-raison-5-min.jpg'>
+
+--
+
+# We're not <em>PCI-DSS</em>
+## And we don't want to be
+
+
+## Hey, I want to register on this wonderful <em>new service</em>
+
+--
+
+# Sure !
+<img width='500px' src='https://m.media-amazon.com/images/I/41sinQYjZyL._AC_UF894,1000_QL80_.jpg'>
+
+--
+
+## Let's discuss it with <em>Security Team</em> and <em>Legal Team</em> before
+
+--
+
+# Thanks!
+
+--
+
+# <em style='color:red'>DO NOT REUSE PASSWORDS</em>
+
+--
+
+# Questions?

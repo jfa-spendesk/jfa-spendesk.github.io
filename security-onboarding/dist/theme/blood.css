@@ -389,7 +389,7 @@ section.has-light-background p, section.has-light-background h1, section.has-lig
   vertical-align: baseline;
 }
 
-.reveal h1 em, .reveal h2 em, .reveal h3 em {
+.reveal h1 em, .reveal h2 em, .reveal h3 em, .reveal h4 em {
   color: #A04AFF;
   font-style: normal;
   text-shadow: none;
