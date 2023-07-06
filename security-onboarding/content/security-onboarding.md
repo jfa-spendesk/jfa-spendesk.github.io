@@ -128,8 +128,19 @@ Note: be careful about what you said, where you say it, and to whom
 
 --
 
-# Use <em>1password</em>!
-## <a href='/1p-demo.html'>Demo</a>
+# We use <em>1password</em>!
+
+--
+
+# <em>Install it</em> on your browser
+
+--
+
+## <a href='content/1p-register.html'>Demo</a>
+
+--
+
+# <em>Master</em> password
 
 --
 
@@ -141,11 +152,11 @@ Note: be careful about what you said, where you say it, and to whom
 
 --
 
-## If someone <em>gives you</em> a password to a personnal account, please <em>report it</em> to the security team
+## If someone <em>gives you</em> a password to a personal account, please <em>report it</em> to the security team
 
 --
 
-### Some accounts are currently <em>shared</em>, we're working on that 😅
+### Some non-personal accounts are currently <em>shared</em> using 1password, we're working on that 😅
 
 --
 
@@ -192,24 +203,6 @@ Note: be careful about what you said, where you say it, and to whom
 <img src='https://images.squarespace-cdn.com/content/v1/54f3390ee4b095d9141b86a5/1565989544107-N50CUROLY505L90X2N20/mfa_workflow.png'>
 Note: multi-factor authentication
 
---
-
-# Iso 27001
-
---
-
-### https://www.notion.so/spendesk/ISO-27001-00cac6ed282a4b7ba385caa663f25184
-
---
-
-### Cybersecurity -> <em>Certifications</em> -> ISO 27001
-
---
-
-## You need to <em>read</em> them.
-### <em style='color: gray'>Je suis pas sûr que ce soit un bon message.<br />C'est quoi le message ici ?</em>
-
---
 
 # <em>Legal</em> bounds
 
@@ -245,6 +238,23 @@ Note: multi-factor authentication
 # We're not <em>PCI-DSS</em>
 ## And we don't want to be
 
+--
+
+# Iso 27001
+## We're <em>working on it</em>
+
+--
+
+# On notion
+### Cybersecurity -> <em>Certifications</em> -> ISO 27001
+### https://www.notion.so/spendesk/ISO-27001-00cac6ed282a4b7ba385caa663f25184
+
+--
+
+## You need to <em>read</em> them.
+### <em style='color: gray'>Je suis pas sûr que ce soit un bon message.<br />C'est quoi le message ici ?</em>
+
+
 
 ## Hey, I want to register on this wonderful <em>new service</em>
 
@@ -257,7 +267,6 @@ Note: multi-factor authentication
 
 ## Let's discuss it with <em>Security Team</em> and <em>Legal Team</em> before
 
---
 
 # Thanks!
 
